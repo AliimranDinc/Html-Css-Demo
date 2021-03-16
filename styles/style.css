@@ -59,7 +59,7 @@ label #close{
     border-bottom: 1px solid black;
 }
 .sidebar ul li:hover{
-    background: #063044;
+    background: #511ccc;
 }
 .sidebar ul li a{
     color: rgb(214, 209, 209);
@@ -82,10 +82,24 @@ input{
 #check:checked ~ section{
     margin-left: 300px;
 }
-section{
+.section{
     background: url("https://i.ibb.co/RNbSZYf/bg.jpg")no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     transition:  all .6s;
+    text-align: center;
+}
+.section header{
+    height: 45rem;
+}
+.section header h1{
+	padding: 11rem;
+	padding-bottom: 0;
+    font-size: 3rem;
+}
+p {
+	padding: 1.6rem 0;
+    font-size: 2rem;
+    color: royalblue;
 }
