@@ -374,6 +374,9 @@ textarea.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+.contact100-form-btn a{
+  color: #fff;
+}
 
 .contact100-form-btn i {
   -webkit-transition: all 0.4s;
